@@ -40,8 +40,3 @@ Execute:
 ./build/benchmark
 ```
 O benchmark mede o tempo médio da função de tratamento (microsegundos por requisição), com 200.000 iterações por cenário. Repita 5 vezes e calcule média/desvio padrão manualmente ou registre cada execução. Não confundir este microbenchmark com latência de rede ou desempenho do Apache Struts.
-
-## Segurança do laboratório
-- Bind exclusivo em 127.0.0.1.
-- Não enviar requisições para hosts externos.
-- Não há execução de comandos nem interpretação de expressões.
