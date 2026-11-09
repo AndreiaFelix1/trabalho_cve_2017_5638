@@ -1,4 +1,4 @@
-# Laboratório didático — CVE-2017-5638 (Apache Struts)
+# CVE-2017-5638
 
 ## Escopo correto
 Este projeto é uma simulação em C com sockets TCP/HTTP, limitada a `127.0.0.1`. Representa o fluxo conceitual `Content-Type` → validação/processamento multipart simplificado → caminho de erro → resposta HTTP. Compara uma variante didática insegura, que reflete entrada não confiável no erro, com uma variante mitigada, que valida e retorna mensagem genérica.
